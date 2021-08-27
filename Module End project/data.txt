@@ -1,0 +1,3 @@
+check files
+check databases
+check assignments

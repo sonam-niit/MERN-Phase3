@@ -1,14 +1,15 @@
 {
-  "name": "weather",
+  "name": "chat-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js Kolkata"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "request": "^2.88.2"
+    "express": "^4.17.1",
+    "socket.io": "^4.1.3"
   }
 }

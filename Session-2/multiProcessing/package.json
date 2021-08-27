@@ -1,0 +1,12 @@
+{
+  "name": "multiprocessing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "childDemo1.js",
+  "scripts": {
+    "start": "node childDemo1.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

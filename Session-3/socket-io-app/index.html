@@ -1,0 +1,8 @@
+<script src="/socket.io/socket.io.js"></script>
+<script>
+    var socket=io("http://localhost:3000");
+    socket.on('news',(data)=>{
+        console.log(data);
+        socket.emit('another event',{my:'data'})
+    })
+</script>
